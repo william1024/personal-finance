@@ -14,5 +14,10 @@
    類別:<input type="text" name="類別"/>
    <br>
    <input type="button" value="儲存">
+   <script>
+   var fdb = new ForerunnerDB();
+   var db = fdb.db("william")
+   var expenseCollection = db.collection("expense");
+   </script>
   </body>
 </html>
